@@ -1,0 +1,43 @@
+[core]
+    editor = vim
+    autocrlf = input
+    fileMode = false
+    ignorecase = true
+    pager = less -R
+
+[init]
+    defaultBranch = main
+
+[color]
+    ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+
+[alias]
+    co = checkout
+    ca = commit --amend
+    cm = commit -m
+    ce = commit --allow-empty -m
+    p = push
+    fp = push --force
+
+[help]
+    autocorrect = 1
+
+[rebase]
+    autosquash = true
+
+[merge]
+    ff = only
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = zebra
+    renames = copies
+    mnemonicPrefix = true
+
+[status]
+    showUntrackedFiles = all
+    short = true 
